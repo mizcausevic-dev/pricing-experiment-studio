@@ -2,8 +2,8 @@
   color-scheme: dark;
   font-family: "Segoe UI", Inter, system-ui, sans-serif;
   background:
-    radial-gradient(circle at 12% 0%, rgba(244, 114, 182, 0.18), transparent 22%),
-    radial-gradient(circle at 92% 4%, rgba(251, 191, 36, 0.16), transparent 20%),
+    radial-gradient(circle at 12% 0%, rgba(244, 114, 182, 0.16), transparent 20%),
+    radial-gradient(circle at 92% 4%, rgba(251, 191, 36, 0.14), transparent 18%),
     linear-gradient(180deg, #120e18 0%, #0c0a12 100%);
   color: #f8fafc;
   line-height: 1.5;
@@ -22,8 +22,8 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at 12% 0%, rgba(244, 114, 182, 0.18), transparent 22%),
-    radial-gradient(circle at 92% 4%, rgba(251, 191, 36, 0.16), transparent 20%),
+    radial-gradient(circle at 12% 0%, rgba(244, 114, 182, 0.16), transparent 20%),
+    radial-gradient(circle at 92% 4%, rgba(251, 191, 36, 0.14), transparent 18%),
     linear-gradient(180deg, #120e18 0%, #0c0a12 100%);
 }
 
@@ -37,56 +37,47 @@ a {
 }
 
 .app-shell {
-  max-width: 1480px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 44px 24px 88px;
+  padding: 40px 24px 88px;
   display: grid;
   gap: 24px;
 }
 
-.hero-layout,
-.showcase-grid {
-  display: grid;
-  gap: 24px;
-}
-
-.hero-layout {
-  grid-template-columns: 1.08fr 0.92fr;
-}
-
-.hero-copy,
-.hero-panel,
-.panel {
+.panel,
+.hero-panel {
   border-radius: 32px;
   border: 1px solid rgba(148, 163, 184, 0.16);
-  background:
-    linear-gradient(180deg, rgba(21, 17, 32, 0.96), rgba(13, 10, 20, 0.94)),
-    rgba(15, 23, 42, 0.4);
-  box-shadow: 0 28px 90px rgba(1, 4, 14, 0.36);
+  background: linear-gradient(180deg, rgba(21, 17, 32, 0.96), rgba(13, 10, 20, 0.94));
+  box-shadow: 0 28px 90px rgba(1, 4, 14, 0.34);
 }
 
-.hero-copy {
-  padding: 38px;
+.metro-panel {
+  padding: 28px;
 }
 
-.hero-panel,
-.panel {
-  padding: 30px;
+.hero-panel {
+  display: grid;
+  gap: 24px;
+}
+
+.metro-copy {
+  display: grid;
+  gap: 14px;
 }
 
 .kicker,
 .eyebrow,
 .tier-label,
 .cohort-label {
-  margin: 0 0 14px;
+  margin: 0;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
-  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  font-size: 0.8rem;
   color: #f7b0cf;
 }
 
 .hero-copy h1,
-.hero-panel h2,
 .panel h2 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
@@ -95,28 +86,28 @@ a {
 }
 
 .hero-copy h1 {
-  font-size: clamp(2.8rem, 5vw, 5.5rem);
-  line-height: 0.92;
-  max-width: 11ch;
+  max-width: 22ch;
+  font-size: clamp(2.4rem, 4vw, 4.2rem);
+  line-height: 1.02;
 }
 
 .lead {
-  margin-top: 22px;
-  max-width: 60ch;
-  color: #cdd5e3;
-  font-size: 1.08rem;
+  margin: 0;
+  max-width: 64ch;
+  color: #cfd6e4;
+  font-size: 1.05rem;
 }
 
 .hero-links {
   display: flex;
   gap: 12px;
-  margin-top: 28px;
   flex-wrap: wrap;
+  margin-top: 4px;
 }
 
 .primary-link,
 .secondary-link {
-  padding: 12px 18px;
+  padding: 11px 18px;
   border-radius: 999px;
   font-weight: 700;
 }
@@ -132,24 +123,18 @@ a {
   background: rgba(255, 255, 255, 0.02);
 }
 
-.hero-panel {
-  display: grid;
-  gap: 22px;
-}
-
-.hero-panel-heading,
 .panel-heading {
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 18px;
+  margin-bottom: 18px;
 }
 
-.hero-panel h2,
 .panel h2 {
-  font-size: 1.74rem;
-  line-height: 1.02;
-  max-width: 20ch;
+  font-size: 2rem;
+  line-height: 1.06;
+  max-width: 22ch;
 }
 
 .annotation,
@@ -161,8 +146,7 @@ a {
 .scenario-card p,
 .guardrail-card p,
 .queue-card p,
-.cohort-metrics span,
-.experiment-meta small {
+.cohort-metrics span {
   color: #aeb8c9;
 }
 
@@ -172,21 +156,44 @@ a {
   text-align: right;
 }
 
+.metro-grid,
 .metric-grid,
 .ladder-grid,
-.experiment-list,
 .cohort-grid,
-.scenario-list,
-.guardrail-list,
-.queue-grid {
+.guardrail-grid,
+.queue-grid,
+.scenario-grid,
+.decision-grid {
   display: grid;
-  gap: 16px;
+  gap: 18px;
 }
 
 .metric-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.decision-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.ladder-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.cohort-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.guardrail-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.queue-grid-metro,
+.scenario-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.metro-tile,
 .metric-card,
 .ladder-card,
 .experiment-card,
@@ -194,6 +201,8 @@ a {
 .scenario-card,
 .guardrail-card,
 .queue-card {
+  min-width: 0;
+  overflow: hidden;
   border-radius: 24px;
   border: 1px solid rgba(148, 163, 184, 0.1);
   background: rgba(255, 255, 255, 0.03);
@@ -202,24 +211,77 @@ a {
 
 .metric-card {
   display: grid;
-  gap: 8px;
+  gap: 10px;
+  min-height: 174px;
 }
 
 .metric-card strong {
-  font-size: 2.4rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 3vw, 3rem);
   line-height: 0.96;
+  color: #fff3c8;
 }
 
-.showcase-grid {
-  grid-template-columns: 1.14fr 0.86fr;
+.metric-card small {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #f4f7fb;
 }
 
-.panel-wide {
-  min-width: 0;
+.decision-card {
+  min-height: 208px;
+  display: grid;
+  gap: 12px;
+  align-content: start;
 }
 
-.ladder-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.decision-card strong,
+.ladder-card strong,
+.cohort-card strong,
+.scenario-card strong,
+.guardrail-card strong,
+.queue-card strong {
+  margin: 0;
+  display: block;
+  font-size: 1.08rem;
+  color: #ffffff;
+}
+
+.decision-card strong {
+  font-size: clamp(1.3rem, 1.9vw, 1.9rem);
+  line-height: 1.08;
+}
+
+.decision-numberline {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.decision-numberline b {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 2.8vw, 3rem);
+  line-height: 1;
+  color: #fff3c8;
+}
+
+.decision-numberline span {
+  color: #fff3c8;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.ladder-card {
+  min-height: 530px;
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.ladder-card-featured {
+  background: rgba(255, 255, 255, 0.045);
+  border-color: rgba(247, 176, 207, 0.9);
 }
 
 .ladder-topline,
@@ -235,22 +297,20 @@ a {
 
 .tier-price {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  line-height: 1;
   color: #fff6dc;
 }
 
-.ladder-card strong,
-.experiment-card strong,
-.scenario-card strong,
-.guardrail-card strong,
-.queue-card strong {
-  display: block;
-  margin-bottom: 8px;
-  font-size: 1.08rem;
+.ladder-card strong {
+  font-size: clamp(1.15rem, 1.7vw, 1.6rem);
+  line-height: 1.1;
 }
 
 .ladder-highlight {
-  margin: 0 0 14px;
+  margin: 0;
+  min-height: 52px;
+  font-size: 0.98rem;
 }
 
 .ladder-card ul {
@@ -260,11 +320,10 @@ a {
 }
 
 .ladder-card li + li {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
-.state-pill,
-.tolerance-pill,
+.feature-chip,
 .due-pill,
 .priority {
   display: inline-flex;
@@ -272,93 +331,98 @@ a {
   justify-content: center;
   width: fit-content;
   border-radius: 999px;
-  padding: 5px 10px;
-  font-size: 0.76rem;
+  padding: 6px 12px;
+  font-size: 0.82rem;
   font-weight: 700;
 }
 
-.state-pill {
-  background: rgba(251, 191, 36, 0.12);
-  color: #fde68a;
-}
-
-.state-promote {
-  background: rgba(74, 222, 128, 0.14);
-  color: #86efac;
-}
-
-.state-hold {
-  background: rgba(125, 211, 252, 0.14);
-  color: #bae6fd;
-}
-
-.state-rollback-watch {
+.feature-chip {
   background: rgba(244, 114, 182, 0.14);
   color: #f9a8d4;
 }
 
-.experiment-meta {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin: 12px 0 14px;
-}
-
-.experiment-meta b,
-.scenario-card b,
-.guardrail-card b {
-  display: block;
-  color: #fff2c6;
-  font-size: 1.12rem;
-}
-
-.panel-split {
-  display: grid;
-  grid-template-columns: 1.18fr 0.82fr;
-  gap: 24px;
-}
-
-.cohort-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .cohort-card {
+  min-height: 240px;
   display: grid;
-  gap: 14px;
+  gap: 20px;
+  align-content: start;
 }
 
-.tolerance-pill {
-  background: rgba(167, 139, 250, 0.14);
-  color: #ddd6fe;
+.cohort-label {
+  font-size: clamp(1.2rem, 1.8vw, 1.7rem);
+  letter-spacing: -0.02em;
+  text-transform: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.cohort-card small {
+  font-size: 0.98rem;
+  line-height: 1.5;
 }
 
 .cohort-metrics {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: auto;
 }
 
 .cohort-metrics strong {
-  font-size: 1.8rem;
-  line-height: 1;
-}
-
-.side-column,
-.scenario-list,
-.guardrail-list,
-.queue-grid {
-  display: grid;
-  gap: 16px;
-}
-
-.scenario-card span {
   display: block;
-  color: #f7b0cf;
-  font-weight: 700;
-  margin-bottom: 8px;
+  margin-top: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.8rem, 2.6vw, 2.6rem);
+  line-height: 1;
+  color: #fff3c8;
+}
+
+.tolerance-value {
+  font-family: "Segoe UI", Inter, system-ui, sans-serif;
+  font-size: 1.25rem;
+}
+
+.tolerance-high {
+  color: #86efac;
+}
+
+.tolerance-moderate {
+  color: #fde68a;
+}
+
+.tolerance-low {
+  color: #f9a8d4;
+}
+
+.guardrail-card {
+  min-height: 210px;
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.guardrail-card b,
+.scenario-card b {
+  display: block;
+  font-size: 1.2rem;
+  color: #fff3c8;
 }
 
 .guardrail-header span {
+  color: #f7b0cf;
+  font-weight: 700;
+}
+
+.queue-card,
+.scenario-card {
+  min-height: 206px;
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.scenario-card span {
+  display: inline-block;
   color: #f7b0cf;
   font-weight: 700;
 }
@@ -373,35 +437,47 @@ a {
   color: #fde68a;
 }
 
-@media (max-width: 1200px) {
-  .hero-layout,
-  .showcase-grid,
-  .panel-split,
+@media (max-width: 1240px) {
+  .metric-grid,
   .ladder-grid,
+  .guardrail-grid,
+  .queue-grid-metro,
+  .scenario-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .decision-grid,
   .cohort-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .app-shell {
+    padding: 24px 14px 56px;
+  }
+
+  .metro-panel {
+    padding: 22px;
+    border-radius: 24px;
+  }
+
+  .metric-grid,
+  .ladder-grid,
+  .guardrail-grid,
+  .queue-grid-metro,
+  .scenario-grid,
+  .cohort-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .panel h2,
+  .hero-copy h1 {
+    max-width: none;
   }
 
   .annotation {
     text-align: left;
-  }
-}
-
-@media (max-width: 760px) {
-  .app-shell {
-    padding: 22px 14px 56px;
-  }
-
-  .hero-copy,
-  .hero-panel,
-  .panel {
-    border-radius: 24px;
-    padding: 22px;
-  }
-
-  .metric-grid,
-  .cohort-metrics,
-  .experiment-meta {
-    grid-template-columns: 1fr;
+    max-width: none;
   }
 }

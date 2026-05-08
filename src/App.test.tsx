@@ -7,11 +7,11 @@ describe('PricingExperimentStudio', () => {
 
     expect(
       screen.getByRole('heading', {
-        name: /design pricing changes like a controlled revenue system, not a blind leap of faith/i,
+        name: /controlled monetization for teams that need revenue lift without breaking trust/i,
       }),
     ).toBeInTheDocument()
     expect(screen.getByText(/package architecture/i)).toBeInTheDocument()
     expect(screen.getByText(/elasticity map/i)).toBeInTheDocument()
-    expect(screen.getByText(/guardrails/i)).toBeInTheDocument()
+    expect(screen.getByText(/guardrails and action queue/i)).toBeInTheDocument()
   })
 })
