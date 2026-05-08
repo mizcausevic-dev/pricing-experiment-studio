@@ -1,37 +1,54 @@
 <svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="1400" height="900" rx="32" fill="#0C0A12"/>
-  <rect x="36" y="36" width="1328" height="828" rx="28" fill="#121020" stroke="#2C2B42"/>
-  <text x="88" y="112" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">ELASTICITY MAP</text>
-  <text x="88" y="182" fill="#FFF8EE" font-family="Georgia, serif" font-size="56" font-weight="700">Elasticity and conversion are not behaving the same</text>
-  <text x="88" y="246" fill="#FFF8EE" font-family="Georgia, serif" font-size="56" font-weight="700">across the commercial surface.</text>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#121020" stroke="#2C2A42"/>
+  <text x="92" y="112" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">ELASTICITY MAP</text>
+  <text x="92" y="174" fill="#FFF8EE" font-family="Georgia, serif" font-size="40" font-weight="700">Perfectly balanced cohort tiles. Clear response patterns.</text>
 
-  <rect x="88" y="320" width="1224" height="150" rx="24" fill="#17162A" stroke="#30304A"/>
-  <text x="124" y="372" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">SMB self-serve</text>
-  <text x="124" y="414" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Best response to annual framing and a lower-friction starter package.</text>
-  <text x="820" y="372" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Conversion</text>
-  <text x="820" y="420" fill="#FFF4CF" font-family="Georgia, serif" font-size="36" font-weight="700">6.8%</text>
-  <text x="980" y="372" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">ARPA</text>
-  <text x="980" y="420" fill="#FFF4CF" font-family="Georgia, serif" font-size="36" font-weight="700">$734</text>
-  <text x="1120" y="372" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Tolerance</text>
-  <text x="1120" y="420" fill="#86EFAC" font-family="Arial, sans-serif" font-size="28" font-weight="700">High</text>
+  <g>
+    <rect x="92" y="240" width="588" height="240" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="128" y="292" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">SMB self-serve</text>
+    <text x="128" y="336" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Annual framing and a lower-friction starter package work best here.</text>
+    <text x="128" y="420" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">Conversion</text>
+    <text x="128" y="472" fill="#FFF3C8" font-family="Georgia, serif" font-size="40" font-weight="700">6.8%</text>
+    <text x="320" y="420" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">ARPA</text>
+    <text x="320" y="472" fill="#FFF3C8" font-family="Georgia, serif" font-size="40" font-weight="700">$734</text>
+    <text x="488" y="420" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">Tolerance</text>
+    <text x="488" y="472" fill="#86EFAC" font-family="Arial, sans-serif" font-size="30" font-weight="700">High</text>
+  </g>
 
-  <rect x="88" y="494" width="1224" height="150" rx="24" fill="#17162A" stroke="#30304A"/>
-  <text x="124" y="546" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Mid-market inbound</text>
-  <text x="124" y="588" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Package clarity helps, but budget-owner confidence drops when tiers compress too hard.</text>
-  <text x="820" y="546" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Conversion</text>
-  <text x="820" y="594" fill="#FFF4CF" font-family="Georgia, serif" font-size="36" font-weight="700">4.4%</text>
-  <text x="980" y="546" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">ARPA</text>
-  <text x="980" y="594" fill="#FFF4CF" font-family="Georgia, serif" font-size="36" font-weight="700">$2,260</text>
-  <text x="1120" y="546" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Tolerance</text>
-  <text x="1120" y="594" fill="#FDE68A" font-family="Arial, sans-serif" font-size="28" font-weight="700">Moderate</text>
+  <g>
+    <rect x="720" y="240" width="588" height="240" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="756" y="292" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Mid-market inbound</text>
+    <text x="756" y="336" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Packaging clarity helps, but budget-owner confidence drops when tiers compress too hard.</text>
+    <text x="756" y="420" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">Conversion</text>
+    <text x="756" y="472" fill="#FFF3C8" font-family="Georgia, serif" font-size="40" font-weight="700">4.4%</text>
+    <text x="948" y="420" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">ARPA</text>
+    <text x="948" y="472" fill="#FFF3C8" font-family="Georgia, serif" font-size="40" font-weight="700">$2,260</text>
+    <text x="1116" y="420" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">Tolerance</text>
+    <text x="1116" y="472" fill="#FDE68A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Moderate</text>
+  </g>
 
-  <rect x="88" y="668" width="1224" height="150" rx="24" fill="#17162A" stroke="#30304A"/>
-  <text x="124" y="720" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Enterprise direct</text>
-  <text x="124" y="762" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Commercial trust matters more than price shape; procurement friction dominates response.</text>
-  <text x="820" y="720" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Conversion</text>
-  <text x="820" y="768" fill="#FFF4CF" font-family="Georgia, serif" font-size="36" font-weight="700">2.7%</text>
-  <text x="980" y="720" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">ARPA</text>
-  <text x="980" y="768" fill="#FFF4CF" font-family="Georgia, serif" font-size="36" font-weight="700">$9,200</text>
-  <text x="1120" y="720" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Tolerance</text>
-  <text x="1120" y="768" fill="#F9A8D4" font-family="Arial, sans-serif" font-size="28" font-weight="700">Low</text>
+  <g>
+    <rect x="92" y="520" width="588" height="240" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="128" y="572" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Partner-led pipeline</text>
+    <text x="128" y="616" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Conversion improves when pricing guidance is paired with implementation context.</text>
+    <text x="128" y="700" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">Conversion</text>
+    <text x="128" y="752" fill="#FFF3C8" font-family="Georgia, serif" font-size="40" font-weight="700">5.1%</text>
+    <text x="320" y="700" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">ARPA</text>
+    <text x="320" y="752" fill="#FFF3C8" font-family="Georgia, serif" font-size="40" font-weight="700">$3,180</text>
+    <text x="488" y="700" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">Tolerance</text>
+    <text x="488" y="752" fill="#FDE68A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Moderate</text>
+  </g>
+
+  <g>
+    <rect x="720" y="520" width="588" height="240" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="756" y="572" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Enterprise direct</text>
+    <text x="756" y="616" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Commercial trust matters more than price shape; procurement friction dominates response.</text>
+    <text x="756" y="700" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">Conversion</text>
+    <text x="756" y="752" fill="#FFF3C8" font-family="Georgia, serif" font-size="40" font-weight="700">2.7%</text>
+    <text x="948" y="700" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">ARPA</text>
+    <text x="948" y="752" fill="#FFF3C8" font-family="Georgia, serif" font-size="40" font-weight="700">$9,200</text>
+    <text x="1116" y="700" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="18">Tolerance</text>
+    <text x="1116" y="752" fill="#F9A8D4" font-family="Arial, sans-serif" font-size="30" font-weight="700">Low</text>
+  </g>
 </svg>

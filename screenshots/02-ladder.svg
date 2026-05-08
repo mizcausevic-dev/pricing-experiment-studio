@@ -1,57 +1,56 @@
 <svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1400" height="900" rx="32" fill="#0D0A14"/>
-  <rect x="36" y="36" width="1328" height="828" rx="28" fill="#121020" stroke="#2C2B42"/>
-  <text x="88" y="112" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">PACKAGE ARCHITECTURE</text>
-  <text x="88" y="182" fill="#FFF8EE" font-family="Georgia, serif" font-size="56" font-weight="700">Make the offer easier to understand before asking</text>
-  <text x="88" y="246" fill="#FFF8EE" font-family="Georgia, serif" font-size="56" font-weight="700">buyers to pay more for it.</text>
+  <rect width="1400" height="900" rx="32" fill="#0C0A12"/>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#121020" stroke="#2C2A42"/>
+  <text x="92" y="112" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">PACKAGE ARCHITECTURE</text>
+  <text x="92" y="174" fill="#FFF8EE" font-family="Georgia, serif" font-size="40" font-weight="700">Four clean offers. One test lane. No visual chaos.</text>
 
   <g>
-    <rect x="88" y="320" width="290" height="470" rx="26" fill="#17162A" stroke="#30304A"/>
-    <text x="120" y="366" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">STARTER</text>
-    <text x="120" y="426" fill="#FFF4CF" font-family="Georgia, serif" font-size="44" font-weight="700">$59</text>
-    <text x="120" y="464" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Self-serve teams</text>
-    <text x="120" y="512" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Fast onboarding and lower-friction entry.</text>
-    <text x="120" y="584" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• 1 workspace</text>
-    <text x="120" y="624" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Core reporting</text>
-    <text x="120" y="664" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Email support</text>
-    <text x="120" y="704" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Guided onboarding</text>
+    <rect x="92" y="240" width="280" height="520" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="124" y="286" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">STARTER</text>
+    <text x="124" y="350" fill="#FFF3C8" font-family="Georgia, serif" font-size="44" font-weight="700">$59</text>
+    <text x="124" y="394" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Self-serve teams</text>
+    <text x="124" y="446" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Clear entry point built for fast activation.</text>
+    <text x="124" y="526" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• 1 workspace</text>
+    <text x="124" y="566" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Core reporting</text>
+    <text x="124" y="606" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Email support</text>
+    <text x="124" y="646" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Guided onboarding</text>
   </g>
 
   <g>
-    <rect x="402" y="300" width="290" height="490" rx="26" fill="#1A1730" stroke="#F5A8C8"/>
-    <text x="434" y="346" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">GROWTH</text>
-    <text x="434" y="406" fill="#FFF4CF" font-family="Georgia, serif" font-size="44" font-weight="700">$179</text>
-    <text x="434" y="444" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Operator-led expansion</text>
-    <text x="434" y="492" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Current experiment target with stronger value framing.</text>
-    <text x="434" y="564" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• 5 workspaces</text>
-    <text x="434" y="604" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Forecasting suite</text>
-    <text x="434" y="644" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Workflow automations</text>
-    <text x="434" y="684" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Advanced attribution</text>
-    <rect x="434" y="720" width="152" height="40" rx="20" fill="#F5A8C8" fill-opacity="0.14"/>
-    <text x="462" y="746" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Primary test lane</text>
+    <rect x="400" y="240" width="280" height="520" rx="24" fill="#1D1731" stroke="#F2A5C4"/>
+    <text x="432" y="286" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">GROWTH</text>
+    <text x="432" y="350" fill="#FFF3C8" font-family="Georgia, serif" font-size="44" font-weight="700">$179</text>
+    <text x="432" y="394" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Operator-led expansion</text>
+    <text x="432" y="446" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Current experiment target for value framing.</text>
+    <text x="432" y="526" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• 5 workspaces</text>
+    <text x="432" y="566" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Forecasting suite</text>
+    <text x="432" y="606" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Workflow automations</text>
+    <text x="432" y="646" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Advanced attribution</text>
+    <rect x="432" y="696" width="158" height="40" rx="20" fill="#F2A5C4" fill-opacity="0.16"/>
+    <text x="462" y="721" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Primary test lane</text>
   </g>
 
   <g>
-    <rect x="716" y="320" width="290" height="470" rx="26" fill="#17162A" stroke="#30304A"/>
-    <text x="748" y="366" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">SCALE</text>
-    <text x="748" y="426" fill="#FFF4CF" font-family="Georgia, serif" font-size="44" font-weight="700">$399</text>
-    <text x="748" y="464" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Mid-market teams</text>
-    <text x="748" y="512" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Usage-based expansion and admin-control narrative.</text>
-    <text x="748" y="584" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Unlimited teams</text>
-    <text x="748" y="624" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Approval routing</text>
-    <text x="748" y="664" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Identity controls</text>
-    <text x="748" y="704" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Priority support</text>
+    <rect x="708" y="240" width="280" height="520" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="740" y="286" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">SCALE</text>
+    <text x="740" y="350" fill="#FFF3C8" font-family="Georgia, serif" font-size="44" font-weight="700">$399</text>
+    <text x="740" y="394" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Mid-market teams</text>
+    <text x="740" y="446" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Usage-based expansion and admin controls.</text>
+    <text x="740" y="526" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Unlimited teams</text>
+    <text x="740" y="566" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Approval routing</text>
+    <text x="740" y="606" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Identity controls</text>
+    <text x="740" y="646" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Priority support</text>
   </g>
 
   <g>
-    <rect x="1030" y="320" width="290" height="470" rx="26" fill="#17162A" stroke="#30304A"/>
-    <text x="1062" y="366" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">ENTERPRISE</text>
-    <text x="1062" y="426" fill="#FFF4CF" font-family="Georgia, serif" font-size="44" font-weight="700">Custom</text>
-    <text x="1062" y="464" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Sales-assisted motion</text>
-    <text x="1062" y="512" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Trust, procurement, and security posture matter most.</text>
-    <text x="1062" y="584" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Security review pack</text>
-    <text x="1062" y="624" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Custom SLAs</text>
-    <text x="1062" y="664" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Dedicated success</text>
-    <text x="1062" y="704" fill="#E7EDF8" font-family="Arial, sans-serif" font-size="22">• Procurement workflows</text>
+    <rect x="1016" y="240" width="280" height="520" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="1048" y="286" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">ENTERPRISE</text>
+    <text x="1048" y="350" fill="#FFF3C8" font-family="Georgia, serif" font-size="44" font-weight="700">Custom</text>
+    <text x="1048" y="394" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Sales-assisted motion</text>
+    <text x="1048" y="446" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Trust and procurement matter more than list price.</text>
+    <text x="1048" y="526" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Security review pack</text>
+    <text x="1048" y="566" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Custom SLAs</text>
+    <text x="1048" y="606" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Dedicated success</text>
+    <text x="1048" y="646" fill="#E9EDF8" font-family="Arial, sans-serif" font-size="22">• Procurement workflows</text>
   </g>
 </svg>

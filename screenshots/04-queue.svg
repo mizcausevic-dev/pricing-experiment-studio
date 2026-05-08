@@ -1,33 +1,54 @@
 <svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="1400" height="900" rx="32" fill="#0C0A12"/>
-  <rect x="36" y="36" width="1328" height="828" rx="28" fill="#121020" stroke="#2C2B42"/>
-  <text x="88" y="112" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">GUARDRAILS AND ACTION QUEUE</text>
-  <text x="88" y="182" fill="#FFF8EE" font-family="Georgia, serif" font-size="56" font-weight="700">Preserve trust and activation while you optimize</text>
-  <text x="88" y="246" fill="#FFF8EE" font-family="Georgia, serif" font-size="56" font-weight="700">for cash, ARPA, and plan selection.</text>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#121020" stroke="#2C2A42"/>
+  <text x="92" y="112" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">GUARDRAILS AND ACTION QUEUE</text>
+  <text x="92" y="174" fill="#FFF8EE" font-family="Georgia, serif" font-size="40" font-weight="700">Symmetric guardrails up top. Clean action blocks below.</text>
 
-  <rect x="88" y="320" width="390" height="220" rx="26" fill="#17162A" stroke="#30304A"/>
-  <text x="120" y="370" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Activation</text>
-  <text x="120" y="418" fill="#F9A8D4" font-family="Arial, sans-serif" font-size="26" font-weight="700">At risk · -3.1 pts</text>
-  <text x="120" y="470" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Seven-day trial compression is</text>
-  <text x="120" y="504" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">degrading first-value completion</text>
-  <text x="120" y="538" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">in larger accounts.</text>
+  <g>
+    <rect x="92" y="240" width="388" height="220" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="126" y="292" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Activation</text>
+    <text x="126" y="346" fill="#F9A8D4" font-family="Arial, sans-serif" font-size="28" font-weight="700">At risk · -3.1 pts</text>
+    <text x="126" y="402" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Trial compression is degrading</text>
+    <text x="126" y="436" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">first-value completion.</text>
+  </g>
 
-  <rect x="506" y="320" width="390" height="220" rx="26" fill="#17162A" stroke="#30304A"/>
-  <text x="538" y="370" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Lead quality</text>
-  <text x="538" y="418" fill="#86EFAC" font-family="Arial, sans-serif" font-size="26" font-weight="700">Stable · +1.4 pts</text>
-  <text x="538" y="470" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Higher-value framing is attracting</text>
-  <text x="538" y="504" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">more serious demo requests.</text>
+  <g>
+    <rect x="506" y="240" width="388" height="220" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="540" y="292" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Lead quality</text>
+    <text x="540" y="346" fill="#86EFAC" font-family="Arial, sans-serif" font-size="28" font-weight="700">Stable · +1.4 pts</text>
+    <text x="540" y="402" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Higher-value framing is attracting</text>
+    <text x="540" y="436" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">more serious demo requests.</text>
+  </g>
 
-  <rect x="924" y="320" width="390" height="220" rx="26" fill="#17162A" stroke="#30304A"/>
-  <text x="956" y="370" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Support load</text>
-  <text x="956" y="418" fill="#FDE68A" font-family="Arial, sans-serif" font-size="26" font-weight="700">Watch · +9%</text>
-  <text x="956" y="470" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Packaging complexity is increasing</text>
-  <text x="956" y="504" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">pre-sales clarification requests.</text>
+  <g>
+    <rect x="920" y="240" width="388" height="220" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="954" y="292" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Support load</text>
+    <text x="954" y="346" fill="#FDE68A" font-family="Arial, sans-serif" font-size="28" font-weight="700">Watch · +9%</text>
+    <text x="954" y="402" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Packaging complexity is increasing</text>
+    <text x="954" y="436" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">pre-sales clarification requests.</text>
+  </g>
 
-  <rect x="88" y="580" width="1226" height="190" rx="26" fill="#17162A" stroke="#30304A"/>
-  <text x="120" y="628" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">NEXT ACTIONS</text>
-  <text x="120" y="682" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">P1 · Freeze trial-compression rollout before activation declines compound</text>
-  <text x="120" y="722" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Owner: Growth PM · Due: Today</text>
-  <text x="720" y="682" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">P1 · Promote checkout anchoring to full self-serve audience</text>
-  <text x="720" y="722" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="22">Owner: Pricing Ops · Due: This sprint</text>
+  <g>
+    <rect x="92" y="500" width="388" height="250" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="126" y="550" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">P1 · TODAY</text>
+    <text x="126" y="606" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Freeze trial compression</text>
+    <text x="126" y="642" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">before activation slips further.</text>
+    <text x="126" y="704" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Owner: Growth PM</text>
+  </g>
+
+  <g>
+    <rect x="506" y="500" width="388" height="250" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="540" y="550" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">P1 · THIS SPRINT</text>
+    <text x="540" y="606" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Promote checkout anchoring</text>
+    <text x="540" y="642" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">into full self-serve reach.</text>
+    <text x="540" y="704" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Owner: Pricing Ops</text>
+  </g>
+
+  <g>
+    <rect x="920" y="500" width="388" height="250" rx="24" fill="#18162A" stroke="#30304A"/>
+    <text x="954" y="550" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">P2 · 48 HOURS</text>
+    <text x="954" y="606" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Reframe Growth-to-Scale</text>
+    <text x="954" y="642" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">with clearer admin contrast.</text>
+    <text x="954" y="704" fill="#B7C0D1" font-family="Arial, sans-serif" font-size="22">Owner: Product Marketing</text>
+  </g>
 </svg>
