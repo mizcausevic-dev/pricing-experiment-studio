@@ -1,0 +1,31 @@
+<svg width="1400" height="880" viewBox="0 0 1400 880" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="880" rx="32" fill="#0C0A12"/>
+  <rect x="40" y="40" width="1320" height="800" rx="28" fill="#121020" stroke="#2B2940"/>
+  <text x="90" y="120" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">PRICING EXPERIMENT STUDIO</text>
+  <text x="90" y="200" fill="#FFF8EE" font-family="Georgia, serif" font-size="62" font-weight="700">Design pricing changes like a controlled</text>
+  <text x="90" y="272" fill="#FFF8EE" font-family="Georgia, serif" font-size="62" font-weight="700">revenue system, not a blind revenue bet.</text>
+  <text x="90" y="336" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="25">Package ladder tests, elasticity readouts, and commercialization decisions shaped for</text>
+  <text x="90" y="370" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="25">pricing operators, RevOps, growth teams, and executives.</text>
+
+  <rect x="90" y="430" width="340" height="120" rx="24" fill="#17162A" stroke="#30304A"/>
+  <text x="122" y="475" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Live pricing surface</text>
+  <text x="122" y="532" fill="#FFF4CF" font-family="Georgia, serif" font-size="46" font-weight="700">$6.4M ARR</text>
+
+  <rect x="456" y="430" width="340" height="120" rx="24" fill="#17162A" stroke="#30304A"/>
+  <text x="488" y="475" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Qualified conversion delta</text>
+  <text x="488" y="532" fill="#FFF4CF" font-family="Georgia, serif" font-size="46" font-weight="700">+4.8%</text>
+
+  <rect x="822" y="430" width="240" height="120" rx="24" fill="#17162A" stroke="#30304A"/>
+  <text x="854" y="475" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Elasticity confidence</text>
+  <text x="854" y="532" fill="#FFF4CF" font-family="Georgia, serif" font-size="46" font-weight="700">81%</text>
+
+  <rect x="1088" y="430" width="210" height="120" rx="24" fill="#17162A" stroke="#30304A"/>
+  <text x="1120" y="475" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="20">Rollback watch</text>
+  <text x="1120" y="532" fill="#FFF4CF" font-family="Georgia, serif" font-size="46" font-weight="700">2 tests</text>
+
+  <rect x="90" y="590" width="1210" height="180" rx="28" fill="#17162A" stroke="#30304A"/>
+  <text x="122" y="638" fill="#F7B0CF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">COMMERCIAL READOUT</text>
+  <text x="122" y="694" fill="#FFF8EE" font-family="Georgia, serif" font-size="42" font-weight="700">Promote checkout anchoring. Freeze trial compression.</text>
+  <text x="122" y="744" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="24">Higher-value framing improves ARPA without hurting self-serve completion. Trial compression</text>
+  <text x="122" y="778" fill="#B8C1D1" font-family="Arial, sans-serif" font-size="24">captures more immediate cash but is degrading activation and enterprise trust.</text>
+</svg>
