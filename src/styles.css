@@ -1,0 +1,407 @@
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", Inter, system-ui, sans-serif;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(244, 114, 182, 0.18), transparent 22%),
+    radial-gradient(circle at 92% 4%, rgba(251, 191, 36, 0.16), transparent 20%),
+    linear-gradient(180deg, #120e18 0%, #0c0a12 100%);
+  color: #f8fafc;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(244, 114, 182, 0.18), transparent 22%),
+    radial-gradient(circle at 92% 4%, rgba(251, 191, 36, 0.16), transparent 20%),
+    linear-gradient(180deg, #120e18 0%, #0c0a12 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  width: 100%;
+}
+
+.app-shell {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 44px 24px 88px;
+  display: grid;
+  gap: 24px;
+}
+
+.hero-layout,
+.showcase-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.hero-layout {
+  grid-template-columns: 1.08fr 0.92fr;
+}
+
+.hero-copy,
+.hero-panel,
+.panel {
+  border-radius: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  background:
+    linear-gradient(180deg, rgba(21, 17, 32, 0.96), rgba(13, 10, 20, 0.94)),
+    rgba(15, 23, 42, 0.4);
+  box-shadow: 0 28px 90px rgba(1, 4, 14, 0.36);
+}
+
+.hero-copy {
+  padding: 38px;
+}
+
+.hero-panel,
+.panel {
+  padding: 30px;
+}
+
+.kicker,
+.eyebrow,
+.tier-label,
+.cohort-label {
+  margin: 0 0 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.74rem;
+  color: #f7b0cf;
+}
+
+.hero-copy h1,
+.hero-panel h2,
+.panel h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.hero-copy h1 {
+  font-size: clamp(2.8rem, 5vw, 5.5rem);
+  line-height: 0.92;
+  max-width: 11ch;
+}
+
+.lead {
+  margin-top: 22px;
+  max-width: 60ch;
+  color: #cdd5e3;
+  font-size: 1.08rem;
+}
+
+.hero-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.primary-link,
+.secondary-link {
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.primary-link {
+  color: #180f19;
+  background: linear-gradient(135deg, #f472b6, #fbbf24);
+}
+
+.secondary-link {
+  color: #edf2fb;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.hero-panel {
+  display: grid;
+  gap: 22px;
+}
+
+.hero-panel-heading,
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 18px;
+}
+
+.hero-panel h2,
+.panel h2 {
+  font-size: 1.74rem;
+  line-height: 1.02;
+  max-width: 20ch;
+}
+
+.annotation,
+.metric-card span,
+.metric-card small,
+.ladder-highlight,
+.experiment-card p,
+.cohort-card small,
+.scenario-card p,
+.guardrail-card p,
+.queue-card p,
+.cohort-metrics span,
+.experiment-meta small {
+  color: #aeb8c9;
+}
+
+.annotation {
+  font-size: 0.9rem;
+  max-width: 18ch;
+  text-align: right;
+}
+
+.metric-grid,
+.ladder-grid,
+.experiment-list,
+.cohort-grid,
+.scenario-list,
+.guardrail-list,
+.queue-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.metric-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.metric-card,
+.ladder-card,
+.experiment-card,
+.cohort-card,
+.scenario-card,
+.guardrail-card,
+.queue-card {
+  border-radius: 24px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 22px;
+}
+
+.metric-card {
+  display: grid;
+  gap: 8px;
+}
+
+.metric-card strong {
+  font-size: 2.4rem;
+  line-height: 0.96;
+}
+
+.showcase-grid {
+  grid-template-columns: 1.14fr 0.86fr;
+}
+
+.panel-wide {
+  min-width: 0;
+}
+
+.ladder-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.ladder-topline,
+.cohort-header,
+.guardrail-header,
+.queue-topline,
+.experiment-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: start;
+}
+
+.tier-price {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  color: #fff6dc;
+}
+
+.ladder-card strong,
+.experiment-card strong,
+.scenario-card strong,
+.guardrail-card strong,
+.queue-card strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.08rem;
+}
+
+.ladder-highlight {
+  margin: 0 0 14px;
+}
+
+.ladder-card ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #f0f4fb;
+}
+
+.ladder-card li + li {
+  margin-top: 8px;
+}
+
+.state-pill,
+.tolerance-pill,
+.due-pill,
+.priority {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.state-pill {
+  background: rgba(251, 191, 36, 0.12);
+  color: #fde68a;
+}
+
+.state-promote {
+  background: rgba(74, 222, 128, 0.14);
+  color: #86efac;
+}
+
+.state-hold {
+  background: rgba(125, 211, 252, 0.14);
+  color: #bae6fd;
+}
+
+.state-rollback-watch {
+  background: rgba(244, 114, 182, 0.14);
+  color: #f9a8d4;
+}
+
+.experiment-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 12px 0 14px;
+}
+
+.experiment-meta b,
+.scenario-card b,
+.guardrail-card b {
+  display: block;
+  color: #fff2c6;
+  font-size: 1.12rem;
+}
+
+.panel-split {
+  display: grid;
+  grid-template-columns: 1.18fr 0.82fr;
+  gap: 24px;
+}
+
+.cohort-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cohort-card {
+  display: grid;
+  gap: 14px;
+}
+
+.tolerance-pill {
+  background: rgba(167, 139, 250, 0.14);
+  color: #ddd6fe;
+}
+
+.cohort-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.cohort-metrics strong {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.side-column,
+.scenario-list,
+.guardrail-list,
+.queue-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.scenario-card span {
+  display: block;
+  color: #f7b0cf;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.guardrail-header span {
+  color: #f7b0cf;
+  font-weight: 700;
+}
+
+.priority {
+  background: rgba(244, 114, 182, 0.14);
+  color: #f9a8d4;
+}
+
+.due-pill {
+  background: rgba(251, 191, 36, 0.12);
+  color: #fde68a;
+}
+
+@media (max-width: 1200px) {
+  .hero-layout,
+  .showcase-grid,
+  .panel-split,
+  .ladder-grid,
+  .cohort-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .annotation {
+    text-align: left;
+  }
+}
+
+@media (max-width: 760px) {
+  .app-shell {
+    padding: 22px 14px 56px;
+  }
+
+  .hero-copy,
+  .hero-panel,
+  .panel {
+    border-radius: 24px;
+    padding: 22px;
+  }
+
+  .metric-grid,
+  .cohort-metrics,
+  .experiment-meta {
+    grid-template-columns: 1fr;
+  }
+}
