@@ -88,7 +88,7 @@ flowchart LR
 ## Local Run
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\pricing-experiment-studio"
+cd pricing-experiment-studio
 npm install
 npm test
 npm run build
